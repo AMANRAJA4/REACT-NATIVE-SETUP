@@ -1,0 +1,47 @@
+Environment setup for React native
+
+1. Install Node.js 
+link : https://nodejs.org/en/download
+version check : [ node --version ]
+version check : [ npm --version ]
+
+
+2. Install NVM 
+link : https://github.com/coreybutler/nvm-windows/releases
+version check : [ nvm --version ]
+
+If you are new to mobile development, the easiest way to get started is with Expo CLI. 
+Expo is a set of tools built around React Native and, while it has many features, the 
+most relevant feature for us right now is that it can get you writing a React Native 
+app within minutes. You will only need a recent version of Node.js and a phone or emulator. 
+If you'd like to try out React Native directly in your web browser before installing 
+any tools, you can try out Snack.
+
+
+3. Install EXPO CLI  
+
+command : [ npm install -g expo-cli ]    [  npm ] 
+command : [ yarn global add expo-cli ]   [  yarn ]
+version check : [ expo --version ]
+
+Note: Before using yarn you need to install yarn.
+
+
+4. Install Yarn to install dependencies. (default when yarn.lock exists)
+command : [ npm install --global yarn ]
+version check : [ yarn --version ]
+
+5. How to create new project.
+command : [ expo init YourProjectName ]
+
+6. How to run react native project.
+cd AwesomeProject
+command : [ npm start / expo start / yarn start]
+Note : Always prefer expo start to run your project.
+
+7. Finding issue to run project in vs code.
+open powershell as administrater and run command
+command : [ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned ]
+and Enter [ Y ] when it make permission.
+
+
