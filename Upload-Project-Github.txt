@@ -1,0 +1,15 @@
+1. Make an empty repositories on github
+2. Go to root directory of project 
+3. Open git base 
+4. git init 
+5. git add .
+6. git commit -m 'message'
+7. git remote add origin https://.................   Paste your repositories https link
+8. git push -u origin master
+
+Now your project successfully uploaded on github
+
+if your code not showing then follow more steps
+
+9. go to setting in your repositories
+10. go to brach and change main to master
