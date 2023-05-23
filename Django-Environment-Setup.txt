@@ -1,0 +1,4 @@
+1. Download Python
+2. Install PIP when installing Python
+3. Install Django
+    cmd [ " pip install django " ]
